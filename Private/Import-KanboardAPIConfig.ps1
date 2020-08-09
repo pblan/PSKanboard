@@ -5,7 +5,7 @@ Function Import-KanboardAPIConfig {
     .DESCRIPTION
        Check for existing config and writes contents.
     .EXAMPLE
-        Import-GitLabAPIConfig
+        Import-KanboardAPIConfig
     #>
     [CmdletBinding()]
     param (
@@ -19,7 +19,7 @@ Function Import-KanboardAPIConfig {
     
     } else {
         Write-Error 'Unable to locate config file at $($ConfigPath). You may have to run Save-KanboardAPIConfig.'
-        break;
+        break
     }
 }
 

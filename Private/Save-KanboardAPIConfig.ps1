@@ -43,4 +43,4 @@ Function Save-KanboardAPIConfig {
    Remove-Variable Parameters
 }
 
-#Save-KanboardAPIConfig -Domain "https://kanboard.paddel.uber.space/" -User "paddel" -Key "68d929a3c095f467508260cd59110935ddadceee19e04ee082610ae02825"
+#Save-KanboardAPIConfig -Domain "https://kanboard.paddel.uber.space/jsonrpc.php" -User "paddel" -Key "68d929a3c095f467508260cd59110935ddadceee19e04ee082610ae02825"
